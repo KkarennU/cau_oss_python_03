@@ -39,26 +39,26 @@ class line:
 def area_square(length):
     """ 길이를 입력받아 정사각형의 넓이를 구하는 함수입니다.
     Args:
-            length (int or float): 한 변의 길이입니다.
+        length (int or float): 한 변의 길이입니다.
     Returns:
-            int or float: 정사각형의 넓이를 반환합니다.
+        int or float: 정사각형의 넓이를 반환합니다.
     """
     return length * length
     
 def area_circle(length):
     """ 길이를 입력받아 원의 넓이를 구하는 함수입니다.
     Args:
-            length (int or float): 반지름의 길이입니다.
+        length (int or float): 반지름의 길이입니다.
     Returns:
-            int or float: 원의 넓이를 반환합니다.
+        int or float: 원의 넓이를 반환합니다.
     """
     return length * length * math.pi
     
 def area_regular_triangle(length):
     """ 길이를 입력받아 정삼각형의 넓이를 구하는 함수입니다.
     Args:
-            length (int or float): 한 변의 길이입니다.
+        length (int or float): 한 변의 길이입니다.
     Returns:
-            int or float: 정삼각형의 넓이를 반환합니다.
+        int or float: 정삼각형의 넓이를 반환합니다.
     """
     return length * length * math.sqrt(3) / 4
